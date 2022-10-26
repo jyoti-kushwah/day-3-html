@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interview question day 3 html</title>
+</head>
+<body>
+    <strong>4. Write a code to insert an image.</strong>
+    <p><b>&#8594;</b>
+        &nbsp;&lt;img src=address of the link” /&gt;
+
+    </p> <br>
+
+    <img src="./endangered-species-day-1.avif" alt="404 error"  > <br> <br>
+
+
+    <strong>5. Write a HTML code to create 2*2 : Table column should be name and salary, provide two entries for
+        this.</strong> <br>
+
+    <h5>
+        <font color="brown">
+
+            &lt;table border="1"&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Name:-&lt;/td&gt; <br>
+            &lt;td&gt;John&lt;/td&gt; <br>
+            &lt;td&gt;David&lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Salary:-&lt;/td&gt; <br>
+            &lt;td&gt;30K&lt;/td&gt; <br>
+            &lt;td&gt;40K&lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;/table&gt;
+
+        </font>
+    </h5> <br>
+
+    <table border="1" cellspacing="0" width="510">
+        <tr>
+            <th>Name:</th>
+            <td>Radhe</td>
+            <td>Shyam</td>
+        </tr>
+
+        <tr>
+            <th>Salary:</th>
+            <td>15k</td>
+            <td>20k</td>
+        </tr>
+    </table> <br><br>
+
+    <strong>6. Create a form that contain input fields like name, age, email and contact.</strong> <br>
+
+    <h5>
+        <font color="brown">
+
+            &lt;from action="#"&gt; <br>
+            &lt;label for="name"&gt;Name:&lt;/label&gt; <br>
+            &lt;input type="text" name="name" id="name"&gt;&lt;br&gt;&lt;br&gt; <br> <br>
+            &lt;label for="email"&gt;Email:&lt;/label&gt; <br>
+            &lt;input type="email" name="email" id="name"&gt;&lt;br&gt;&lt;br&gt; <br> <br>
+            &lt;label for="age"&gt;Age:&nbsp;&lt;/label&gt; <br>
+            &lt;input type="number" name="age" id="name"&gt;&lt;br&gt;&lt;br&gt; <br> <br>
+            &lt;label for="contact"&gt;Contact:&lt;/label&gt; <br>
+            &lt;input type="tel" name="contact" id="contact"&gt;&lt;br&gt;&lt;br&gt; <br> <br>
+            &lt;/form&gt;
+
+        </font>
+    </h5> <br>
+
+    <form>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="name"><br><br>
+
+        <label for="age">Age :</label>
+        <input type="number" name="age" id="name"><br><br>
+
+        <label for="contact">Contact :</label>
+        <input type="tel" name="contact" id="contact"><br><br>
+
+    </form> <br>
+
+    <strong>7. Create a table and explain how to achieve colspan?</strong> <br>
+
+    <h5>
+        <font color="brown">
+
+            &lt;table border="1"> <br>
+            &lt;tr&gt; <br>
+            &lt;th&gt;Name&lt;/th&gt; <br>
+            &lt;th colspan="2">Designation&lt;/th&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Rohan&lt;/td&gt; <br>
+            &lt;td&gt;Front-end Dev&lt;/td&gt; <br>
+            &lt;td&gt;Backend Dev&lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Vihan&lt;/td&gt; <br>
+            &lt;td&gt;Front-end Dev&lt;/td&gt; <br>
+            &lt;td>Backend Dev&lt;/td7&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;/table&gt; <br> <br> <br>
+
+        </font>
+    </h5>
+
+    <h3>Table with colspan</h3>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Designation</th>
+        </tr>
+        <tr>
+            <td>Rohan</td>
+            <td>Front-end Dev</td>
+            <td>Backend Dev</td>
+        </tr>
+        <tr>
+            <td>Vihan</td>
+            <td>Front-end Dev</td>
+            <td>Backend Dev</td>
+        </tr>
+    </table> <br>
+
+    <h3>Radio Button</h3>
+
+    <input type="radio" value="MERN" name="course" id="course">
+    <label for="course">MERN</label>
+    <input type="radio" value="MEAN" name="course" id="course">
+    <label for="course">MEAN</label> <br>
+
+    <h3>Check Box</h3>
+
+    <input type="checkbox" value="HTML" name="technology-1" id="technology">
+    <label for="technology">HTML</label>
+
+    <input type="checkbox" value="CSS" name="technology-2" id="technology">
+    <label for="technology">CSS</label>
+
+    <input type="checkbox" value="React" name="technology-3" id="technology">
+    <label for="technology">React</label>
+
+    <input type="checkbox" value="Node" name="technology-4" id="technology">
+    <label for="">Node</label> <br> <br> <br>
+
+    <table border="1" cellspacing="0" width="510">
+        <tr>
+            <td>Radio</td>
+            <td>Checkbox</td>
+        </tr>
+        <tr>
+            <td>It is used when only one option to be <br> selected out of several available <br> options.</td>
+            <td>Checkbox allow one or many options <br> to be selected.</td>
+        </tr>
+        <tr>
+            <td>Radio button is presented as small <br> circle on the screen.</td>
+            <td>Checkbox is presented as small square <br> box on the screen.</td>
+        </tr>
+        <tr>
+            <td>It is used when you want to limit the <br> user’s choice to just one option from <br> the range provided
+            </td>
+            <td>It is used when you want to allow user <br> to select multiple options.</td>
+        </tr>
+        <tr height="30">
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
+</body>
+</html>
